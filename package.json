@@ -1,0 +1,23 @@
+{
+  "name": "momo_acl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [],
+  "author": "Mohamed KEITA",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
